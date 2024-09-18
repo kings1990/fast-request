@@ -23,18 +23,20 @@ Join and follow us to solve your question ❤️❤️❤️↓↓↓
 - <Badge text="Functions and environment code completion" color="orange"/>
 - <Badge text="JSON filter" type="tip"/>
 - <Badge text="Common Header code completion" type="tip"/>
+- <Badge text="@FeignClient scan support" type="tip"/>  
 - <Badge text="Default file path for multipart" type="tip"/>
 - <Badge text="Error report support" type="tip"/>  
 - <Badge text="SearchEveryWhere result sorting optimization" type="info"/>
 - <Badge text="Script interface optimition" type="info"/>
 - <Badge text="Script grammar hints optimization" type="info"/>  
 - <Badge text="Map parse" type="info"/>
-- <Badge text="Several known issue optimizations" type="info"/>
+- <Badge text="Fix URL scan in jar is displayed as empty" type="danger"/>  
+- <Badge text="Several known issue optimizations" type="danger"/>
 
 ::: hint Functions and environment code completion <Badge vertical="top" text="Important feature" color="orange"/>
 <MyCarousel :imgList="['/img/2024.1.7/functionEn.png','/img/2024.1.7/functionInBodyEn.png','/img/2024.1.7/functionConfig.png']" />
 
-Support environment value like `{{xx}}` and function value `{@functionName}` code completion
+Support environment value like `{{xx}}` and function value `{{$functionName}}` code completion
 
 For more information about function support, see ----> [Function](/en/guide/features/function.md)
 :::
@@ -45,14 +47,20 @@ For more information about function support, see ----> [Function](/en/guide/feat
 When there are many fields in JSON, but only part of them are needed, this feature can help filter the JSON fields.
 :::
 
-:::hint Common Header code completion <Badge vertical="top" text="New feature" type="tip"/>
+::: hint Common Header code completion <Badge vertical="top" text="New feature" type="tip"/>
 ![header](/img/2024.1.7/header.png)
 
 Code completion is supported for some common header keys, such as `Authorization`
 :::
 
+::: hint @FeignClient scan support  <Badge vertical="top" text="New feature" type="tip"/>
+![feignClientSupport](/img/2024.1.7/feignClientSupport.png)
+
+Support scan `org.springframework.cloud.openfeign.FeignClient`, optimized the path parse result
+:::
+
 ::: hint Default file path for multipart <Badge vertical="top" text="New feature" type="tip"/>
-![jsonFilter](/img/2024.1.7/defaultMultipartFile.png)
+![defaultMultipartFile](/img/2024.1.7/defaultMultipartFile.png)
 
 Multipart type fields can be set default path by this setting.
 :::
