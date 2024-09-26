@@ -9,23 +9,25 @@ icon: changelog
 
 购买**License**流程请参考[**购买插件**](./buy.md) 或者进入微信群里查看**群公告**，Issue 提报请到[_Github_](https://github.com/dromara/fast-request/issues)
 
-| ![微信技术群](https://img.shields.io/static/v1?label=wechat&message=微信技术群&logo=wechat&color=07C160) | ![插件开发技术群](https://img.shields.io/static/v1?label=wechat&message=插件开发技术群&logo=wechat&color=087CFA)                                                                            |
-| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![wechat group](/img/wechatGroup.png)                                                                    | ![插件开发技术群](/img/pluginDevelopGroup.png)                                                                                                                                              |
-| 如果扫码失败请直接搜微信号==FastRequest99==                                                              | 开发出类似的[iBlog](https://plugins.jetbrains.com/plugin/24920-iblog)、[Bean Assistant](https://plugins.jetbrains.com/plugin/24576-bean-assistant)<br/>的插件教学，如果你也想开发插件请进群 |
+| ![微信技术群](https://img.shields.io/static/v1?label=wechat&message=微信技术群&logo=wechat&color=07C160) | [![twitter](https://img.shields.io/static/v1?label=Twitter&message=FastRequest666&logo=twitter&color=FC8D34)](https://twitter.com/FastRequest666) |
+|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![wechat group](/img/wechatGroup.png  =300x300)                                                         | ![twitter](/img/twitter.png  =300x300)                                                                                                                     |
+| 如果扫码失败请直接搜微信号==FastRequest99==                                                                 | 欢迎关注官方 Twitter                                                                                                                                    | 
 
 :::
 
 > **由于开发版本仍在开发中，开发版本的文档可能不完全准确，因此可能会发生变化。**
+> <br/><br/>
+> important: <Badge text="重要功能" color="orange"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>feat: <Badge text="新功能" type="tip"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> perf: <Badge text="优化" type="info"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> fix: <Badge text="修复/移除" type="danger"/>
 
 ## 2024.1.7 <Badge text="免费试用" type="tip"/> <Badge text="最新版" type="pink"/> <Badge text="IDEA 2023.3+" color="pink"/>
 
 - <Badge text="函数与变量支持代码补全" color="orange"/>
 - <Badge text="JSON filter支持" type="tip"/>
 - <Badge text="Header 常用值支持代码补全" type="tip"/>
-- <Badge text="@FeignClient 扫描支持" type="tip"/>  
+- <Badge text="@FeignClient 扫描支持" type="tip"/>
 - <Badge text="文件默认值支持" type="tip"/>
-- <Badge text="异常上报支持" type="tip"/>  
+- <Badge text="异常上报支持" type="tip"/>
 - <Badge text="SearchEveryWhere 结果排序优化" type="info"/>
 - <Badge text="Script语法提示优化" type="info"/>
 - <Badge text="Map 解析优化" type="info"/>
@@ -86,7 +88,6 @@ Multipart 类型字段可以通过该配置设置默认文件路径
 
 更多内置变量请参考 [Script->rfr](./script.md#rfr)
 :::
-
 
 ## 2024.1.6.3 <Badge text="免费试用" type="tip"/> <Badge text="2024-08-15" color="SandyBrown"/> <Badge text="IDEA 2022.3+" color="pink"/>
 

@@ -11,26 +11,30 @@ Issue report please refer to [GitHub](https://github.com/dromara/fast-request/is
 Join and follow us to solve your question ❤️❤️❤️↓↓↓
 
 | [![Slack](https://img.shields.io/static/v1?label=Slack&message=Restful%20Fast%20Request&logo=slack&color=38B580)](https://join.slack.com/t/restfulfastrequest/shared_invite/zt-1we57vum8-TALhTHI2uNmPF2bx1NDyWw) | [![twitter](https://img.shields.io/static/v1?label=Twitter&message=FastRequest666&logo=twitter&color=FC8D34)](https://twitter.com/FastRequest666) |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![slack](/img/slack.png)                                                                                                                                                                                         | ![twitter](/img/twitter.png)                                                                                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![slack](/img/slack.png =300x300)                                                                                                                                                                                        | ![twitter](/img/twitter.png =300x300)                                                                                                                     |
 
 :::
 
 > **Because developing version is still in development, the documentation of developing version may not be entirely accurate and is subject to change.**
+> <br/><br/>
+> important: <Badge text="Important function" color="orange"/> feat: <Badge text="New function" type="tip"/>
+> 
+> perf: <Badge text="Optimization function" type="info"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> fix: <Badge text="Fix or Remove function" type="danger"/>
 
 ## 2024.1.7 <Badge text="Free trial" type="tip"/> <Badge text="Newest version" type="pink"/> <Badge text="IDEA 2023.3+" color="pink"/>
 
 - <Badge text="Functions and environment code completion" color="orange"/>
 - <Badge text="JSON filter" type="tip"/>
 - <Badge text="Common Header code completion" type="tip"/>
-- <Badge text="@FeignClient scan support" type="tip"/>  
+- <Badge text="@FeignClient scan support" type="tip"/>
 - <Badge text="Default file path for multipart" type="tip"/>
-- <Badge text="Error report support" type="tip"/>  
+- <Badge text="Error report support" type="tip"/>
 - <Badge text="SearchEveryWhere result sorting optimization" type="info"/>
 - <Badge text="Script interface optimition" type="info"/>
-- <Badge text="Script grammar hints optimization" type="info"/>  
+- <Badge text="Script grammar hints optimization" type="info"/>
 - <Badge text="Map parse" type="info"/>
-- <Badge text="Fix URL scan in jar is displayed as empty" type="danger"/>  
+- <Badge text="Fix URL scan in jar is displayed as empty" type="danger"/>
 - <Badge text="Several known issue optimizations" type="danger"/>
 
 ::: hint Functions and environment code completion <Badge vertical="top" text="Important feature" color="orange"/>
@@ -53,7 +57,7 @@ When there are many fields in JSON, but only part of them are needed, this featu
 Code completion is supported for some common header keys, such as `Authorization`
 :::
 
-::: hint @FeignClient scan support  <Badge vertical="top" text="New feature" type="tip"/>
+::: hint @FeignClient scan support <Badge vertical="top" text="New feature" type="tip"/>
 ![feignClientSupport](/img/2024.1.7/feignClientSupport.png)
 
 Support scan `org.springframework.cloud.openfeign.FeignClient`, optimized the path parse result
