@@ -22,11 +22,12 @@ Join and follow us to solve your question ❤️❤️❤️↓↓↓
 > 
 > perf: <Badge text="Optimization function" type="info"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> fix: <Badge text="Fix or Remove function" type="danger"/>
 
-## 2024.1.9 <Badge text="Free trial" type="tip"/> <Badge text="Newest version" type="pink"/> <Badge text="2024-11-28" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+## 2024.1.9 <Badge text="Free trial" type="tip"/> <Badge text="Newest version" type="pink"/> <Badge text="Developing..." color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
 - <Badge text="OpenAPI export support" type="tip"/>
 - <Badge text="Run switch tab configurable" type="tip"/>
 - <Badge text="Response document" type="tip"/>
 - <Badge text="Solon framework support" type="tip"/>
+- <Badge text="File export" type="tip"/>
 
 ::: hint OpenAPI export support <Badge vertical="top" text="New feature" type="tip"/>
 ![](/img/2024.1.9/openApiExport_en.png)
@@ -54,6 +55,13 @@ In the response tab, you can view the field meaning.
 ![](/img/2024.1.9/solon.png)
 
 Support [Solon](https://solon.noear.org/) framework.
+
+:::
+
+::: hint File export <Badge vertical="top" text="New feature" type="tip"/>
+![](/img/2024.1.9/exportPath_en.png)
+
+The default export directory, for example, markdown、html、word、openapi export can be customized in project-level config.
 
 :::
 
