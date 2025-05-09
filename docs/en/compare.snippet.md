@@ -10,7 +10,7 @@
 
 **Deeply optimized leading smart API debugging plugin**
 
-<Badge vertical="baseline" color="#FC801D">IDEA 2021.2</Badge>
+<Badge vertical="baseline" color="#FC801D">IDEA 2021.2+</Badge>
 <Badge vertical="baseline" color="#21D789">Humanize</Badge>
 <Badge vertical="baseline" color="#FF318C">Advanced</Badge>
 
@@ -56,6 +56,7 @@
 - [x] [<ColorIcon icon="analyseNew" /> Annual report](/en/guide/features/annualReport.md)
 - [x] [More...](./guide/features/)
 
+<button class="buyBtn" onclick="window.open('https://plugins.jetbrains.com/plugin/16988/pricing')">Buy</button>
 </div>
 
 <div class="hint-container tip" style="margin-left:15px;width:50%">
@@ -76,3 +77,16 @@
 - [x] API navigation
 </div>
 </div>
+
+<style>
+.buyBtn{
+    width:100%;
+    color: #fff;
+    background:#0C71F9;
+    border:none;
+    border-radius: 5px;
+    padding: 3px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+</style>
