@@ -22,18 +22,33 @@ icon: changelog
 
 ## 2025.1.7 <Badge text="免费试用" type="tip"/>  <Badge text="开发中..." type="pink"/> <Badge text="IDEA 2023.3+" color="pink"/>
 - <Badge text="支持本地模式开关" type="tip"/>
+- <Badge text="域名生成支持读取变量" type="tip"/>  
 - <Badge text="列表字段支持快速查找定位" type="tip"/>
 - <Badge text="字段支持启用快捷过略" type="tip"/>
+- <Badge text="支持快捷键快速修改" type="tip"/>
 
 :::hint 支持本地模式开关 <Badge vertical="top" text="新功能" type="tip"/>
 
+![](/img/2025.1.7/globalLocalMode.png)
+
+    全局本地模式会忽略 `.fastRequest` 目录并且让它不可见，与[如何忽略 .fastRequest 目录](./faq.md#s-%E5%A6%82%E4%BD%95%E5%BF%BD%E7%95%A5-fastrequest-%E7%9B%AE%E5%BD%95) 中的方式 1 一致。
+
+
 ![](/img/2025.1.7/localMode.png)
 
+如果是 git 管理的项目，建议使用项目级别本地模式。
 
-本地模式会忽略 `.fastRequest` 目录并且让它不可见，与[如何忽略 .fastRequest 目录](./faq.md#s-%E5%A6%82%E4%BD%95%E5%BF%BD%E7%95%A5-fastrequest-%E7%9B%AE%E5%BD%95) 中的方式 1 一致。
 
 :::
 
+:::hint 域名生成支持读取变量 <Badge vertical="top" text="新功能" type="tip"/>
+
+![](/img/2025.1.7/pomScanProp.png)
+
+
+域名自动生成支持 pom 变量扫描
+
+:::
 
 
 :::hint 列表字段支持快速查找定位 <Badge vertical="top" text="新功能" type="tip"/>
@@ -49,6 +64,14 @@ icon: changelog
 ![](/img/2025.1.7/enabledFieldList.png)
 
 此功能可以在针对字段过多的情况下，快速查阅启用的字段定位字段的值。
+
+:::
+
+:::hint 支持快捷键快速修改 <Badge vertical="top" text="新功能" type="tip"/>
+
+![](/img/2025.1.7/shortcuts.png)
+
+支持快速定位和修改插件快捷键
 
 :::
 
