@@ -29,7 +29,17 @@ Because developing version is still in development, the documentation of develop
 
 [**More detail ---------------->**](./history.md)
 
-## 2025.1.9 <Badge text="Free trial" type="tip"/> <Badge text="Newest version" type="pink"/> <Badge text="2026-06-29" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+## 2026.1.1 <Badge text="Free trial" type="tip"/> <Badge text="Developing..." color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+<Badge text="In this version, we have made extensive code optimizations and refactoring. If you encounter any issues, please report them to us and we will fix them as soon as possible." color="pink" vertical="middle"/>
+
+- <Badge text="Run Method support" type="important"/>
+- <Badge text="JSON field assist" type="tip"/>
+- <Badge text="JSON response tree view" type="tip"/>
+- <Badge text="Param copy and import" type="tip"/>
+- <Badge text="Parameter editor optimization" type="info"/>
+- <Badge text="Fix minor non-blocking issues" type="danger"/>
+
+## 2025.1.9 <Badge text="Free trial" type="tip"/> <Badge text="2026-06-29" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
 - <Badge text="AI inline completion" type="tip"/>
 - <Badge text="JSON key support one-click conversion" type="tip"/>
 

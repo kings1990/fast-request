@@ -27,7 +27,17 @@ important: <Badge text="重要功能" type="important"/> <span>&nbsp;&nbsp;&nbsp
 
 [**务必查看变更详情----------------->**](./history.md)
 
-## 2025.1.9 <Badge text="免费试用" type="tip"/> <Badge text="最新版" type="pink"/> <Badge text="2026-06-29" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+## 2026.1.1 <Badge text="免费试用" type="tip"/> <Badge text="开发中..." color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+<Badge text="该版本，我们进行了大量的代码优化与重构，所以如果出现问题，请及时反馈给我们，我们会尽快修复。" color="pink" vertical="middle"/>
+
+- <Badge text="Run Method 支持" type="important"/>
+- <Badge text="JSON 字段增强" type="tip"/>
+- <Badge text="JSON 响应树视图" type="tip"/>
+- <Badge text="参数复制导入" type="tip"/>
+- <Badge text="参数编辑区优化" type="info"/>
+- <Badge text="修复若干非阻断问题" type="danger"/>
+
+## 2025.1.9 <Badge text="免费试用" type="tip"/> <Badge text="2026-06-29" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
 - <Badge text="AI 字段补全" type="tip"/>
 - <Badge text="JSON key 支持一键转换驼峰" type="tip"/> 
 

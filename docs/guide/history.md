@@ -20,7 +20,64 @@ icon: changelog
 >
 > important: <Badge text="重要功能" type="important"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>feat: <Badge text="新功能" type="tip"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> perf: <Badge text="优化" type="info"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> fix: <Badge text="修复/移除" type="danger"/>
 
-## 2025.1.9 <Badge text="免费试用" type="tip"/> <Badge text="最新版" type="pink"/> <Badge text="2026-06-29" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+## 2026.1.1 <Badge text="免费试用" type="tip"/> <Badge text="开发中..." color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+> [!important]
+> 该版本，我们进行了大量的代码优化与重构，所以如果出现问题，请及时反馈给我们，我们会尽快修复。
+
+- <Badge text="Run Method 支持" type="important"/>
+- <Badge text="JSON 字段增强" type="tip"/>
+- <Badge text="JSON 响应树视图" type="tip"/>
+- <Badge text="参数复制导入" type="tip"/>
+- <Badge text="参数编辑区优化" type="info"/>
+- <Badge text="修复若干非阻断问题" type="danger"/>
+
+
+:::hint Run Method 支持 <Badge vertical="top" text="重要功能" type="important"/>
+
+![](/img/2026.1.1/runMethod.png)
+
+![](/img/2026.1.1/methods.png)
+
+支持在 Java/Kotlin 方法上直接触发 Run Method，根据方法签名生成调用参数，并调用运行中的应用内的 Spring/Sonlon Bean 方法。支持保存方法及参数数据，同一个方法可以保存多组参数，已保存的方法可在 Methods 中打开、切换参数组、重新运行或定位到源码。
+
+:::
+
+:::hint JSON 字段增强 <Badge vertical="top" text="新功能" type="tip"/>
+
+<MyCarousel :imgList="['/img/2026.1.1/jsonSchema.png','/img/2026.1.1/fieldCompletion.png','/img/2026.1.1/fieldNavigate.png']" />
+
+JSON 参数编辑器支持根据实体字段提供字段补全、注释提示和字段插入。选择补全项后会生成对应的 JSON key/value 结构并执行格式化，同时支持从 JSON key 跳转到对应的实体字段定义。
+
+:::
+
+:::hint JSON 响应树视图 <Badge vertical="top" text="新功能" type="tip"/>
+<MyCarousel :imgList="['/img/2026.1.1/jsonTreeAction.png','/img/2026.1.1/jsonTree.png']" />
+
+响应 JSON 支持在编辑器视图和树形视图之间切换。树形视图按对象和数组节点展示 JSON 结构，并支持复制节点 key 或 value。
+
+:::
+
+:::hint 参数复制导入 <Badge vertical="top" text="新功能" type="tip"/>
+<MyCarousel :imgList="['/img/2026.1.1/paramBulkEdit.png','/img/2026.1.1/encodedParamBulkEdit.png','/img/2026.1.1/copyParam.png']" />
+
+URL Params 和 Form URL-Encoded 支持将启用的参数复制为文本，也支持从文本批量编辑与导入参数。导入文本使用 & 分隔参数，使用 = 分隔 key/value，并支持使用 // 标记禁用参数。
+
+:::
+
+:::hint 参数编辑区优化 <Badge vertical="top" text="优化" type="info"/>
+<MyCarousel :imgList="['/img/2026.1.1/paramEditArea.png','/img/2026.1.1/jsonParamEditArea.png']" />
+
+优化 URL Params、Form URL-Encoded、Body Raw 的参数编辑区结构。URL Params 和 Form URL-Encoded 将原 Table/Text 双 Tab 调整为单一参数表格，并将文本参数能力调整为复制和导入操作。Body Raw 移除原 Params/Document 子 Tab，Document 通过工具栏按钮打开弹窗展示。
+
+:::
+
+:::hint 修复若干非阻断问题 <Badge vertical="top" text="修复/移除" type="danger"/>
+
+修复若干不影响插件正常运行的问题，涉及界面展示、状态刷新、边缘场景处理和 IDEA 线程访问问题。
+
+:::
+
+## 2025.1.9 <Badge text="免费试用" type="tip"/> <Badge text="2026-06-29" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
 - <Badge text="AI 字段补全" type="important"/>
 - <Badge text="JSON key 支持一键转换驼峰" type="tip"/> 
 
