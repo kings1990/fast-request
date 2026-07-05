@@ -21,7 +21,69 @@ Join and follow us to solve your question ❤️❤️❤️↓↓↓
 >
 > perf: <Badge text="Optimization feature" type="info"/> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> fix: <Badge text="Fix or Remove feature" type="danger"/>
 
-## 2025.1.9 <Badge text="Free trial" type="tip"/> <Badge text="Newest version" type="pink"/> <Badge text="2026-06-29" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+## 2026.1.1 <Badge text="Free trial" type="tip"/> <Badge text="Developing..." color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+
+> [!important]
+> We have made extensive code optimizations and refactoring in this version.If you encounter any issues, feel free to report them to us and we will fix them as soon as possible.
+
+
+
+- <Badge text="Run Method support" type="important"/>
+- <Badge text="JSON field assist" type="tip"/>
+- <Badge text="JSON response tree view" type="tip"/>
+- <Badge text="Param copy and import" type="tip"/>
+- <Badge text="Parameter editor optimization" type="info"/>
+- <Badge text="Fix minor non-blocking issues" type="danger"/>
+
+::: hint Run Method support <Badge vertical="top" text="Important feature" type="important"/>
+
+![](/img/2026.1.1/runMethod.png)
+
+![](/img/2026.1.1/methods_en.png)
+
+Support triggering Run Method directly from Java/Kotlin methods. It generates invocation arguments from the method signature and calls Spring/Solon Bean methods inside the running application. Methods and parameter data can be saved, and the same method can keep multiple parameter sets. Saved methods can be opened in Methods, switched between parameter sets, rerun, or navigated back to source code.
+
+:::
+
+::: hint JSON field assist <Badge vertical="top" text="New feature" type="tip"/>
+
+<MyCarousel :imgList="['/img/2026.1.1/jsonSchema.png','/img/2026.1.1/fieldCompletion_en.png','/img/2026.1.1/fieldNavigate.png']" />
+
+The JSON parameter editor supports field completion, comment hints, and field insertion based on entity fields. After selecting a completion item, the corresponding JSON key/value structure is generated and formatted. Navigation from a JSON key to the corresponding entity field definition is also supported.
+
+:::
+
+::: hint JSON response tree view <Badge vertical="top" text="New feature" type="tip"/>
+
+<MyCarousel :imgList="['/img/2026.1.1/jsonTreeAction.png','/img/2026.1.1/jsonTree.png']" />
+
+Response JSON can be switched between editor view and tree view. The tree view displays JSON by object and array nodes, and supports copying node keys or values.
+
+:::
+
+::: hint Param copy and import <Badge vertical="top" text="New feature" type="tip"/>
+
+<MyCarousel :imgList="['/img/2026.1.1/paramBulkEdit_en.png','/img/2026.1.1/encodedParamBulkEdit_en.png','/img/2026.1.1/copyParam.png']" />
+
+URL Params and Form URL-Encoded support copying enabled parameters as text and importing parameters in bulk from text. Imported text uses & to split parameters, = to split key/value pairs, and // to mark disabled parameters.
+
+:::
+
+::: hint Parameter editor optimization <Badge vertical="top" text="Optimization feature" type="info"/>
+
+<MyCarousel :imgList="['/img/2026.1.1/paramEditArea.png','/img/2026.1.1/jsonParamEditArea.png']" />
+
+Optimized the parameter editor structure for URL Params, Form URL-Encoded, and Body Raw. URL Params and Form URL-Encoded replace the previous Table/Text dual-tab layout with a single parameter table, and move text parameter handling to copy and import actions. Body Raw removes the previous Params/Document sub-tabs, and Document is now displayed in a dialog opened from the toolbar button.
+
+:::
+
+::: hint Fix minor non-blocking issues <Badge vertical="top" text="Fix" type="danger"/>
+
+Fixed several issues that do not affect normal plugin execution, including UI display, state refresh, edge-case handling, and IDEA threading/read-action access.
+
+:::
+
+## 2025.1.9 <Badge text="Free trial" type="tip"/> <Badge text="2026-06-29" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
 - <Badge text="AI inline completion" type="important"/>
 - <Badge text="JSON key support one-click conversion" type="tip"/>
 

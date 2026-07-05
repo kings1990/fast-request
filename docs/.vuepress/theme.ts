@@ -66,6 +66,7 @@ export default hopeTheme(
       imgSize: true,
       tabs: true,
       codeTabs: true,
+      alert: true,
     },
 
     plugins: {
