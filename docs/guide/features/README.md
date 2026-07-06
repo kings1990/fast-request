@@ -70,6 +70,14 @@ icon: featuresNew
 
 - [<ColorIcon icon="locateNavigate" /> API 导航树](./apiNavigateTree.md)
 
+## RunMethod
+
+- [<ColorIcon icon="runMethod" /> Run Method](./runMethod.md)
+
+## Methods
+
+- [<ColorIcon icon="method_dark" /> Methods](./runMethod.md#methods)
+
 ## Generate
 
 - [<ColorIcon icon="swagger" /> Swagger 默认值](./swaggerDefaultValueParse.md)
