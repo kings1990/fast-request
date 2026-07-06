@@ -31,7 +31,7 @@ export default defineUserConfig({
     ],
     [
       "script",
-      { src: "//at.alicdn.com/t/c/font_2601581_tleme42m6wm.js", async: true },
+      { src: "//at.alicdn.com/t/c/font_2601581_1cy912ni3e4.js", async: true },
     ],
     ["script", { src: "/js/gtag.js", async: true }],
     [

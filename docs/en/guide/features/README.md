@@ -70,6 +70,14 @@ The icon in the document corresponds to the button icon in the plugin
 
 - [<ColorIcon icon="locateNavigate" /> API navigate tree](./apiNavigateTree.md)
 
+## RunMethod
+
+- [<ColorIcon icon="runMethod" /> Run Method](./runMethod.md)
+
+## Methods
+
+- [<ColorIcon icon="method_dark" /> Methods](./runMethod.md#methods)
+
 ## Generate
 
 - [<ColorIcon icon="swagger" /> Swagger default value parsing support](./swaggerDefaultValueParse.md)
