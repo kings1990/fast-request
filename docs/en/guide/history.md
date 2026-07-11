@@ -33,6 +33,7 @@ Join and follow us to solve your question ❤️❤️❤️↓↓↓
 - <Badge text="JSON response tree view" type="tip"/>
 - <Badge text="Param copy and import" type="tip"/>
 - <Badge text="Parameter editor optimization" type="info"/>
+- <Badge text="History request refactor" type="info"/>
 - <Badge text="Fix minor non-blocking issues" type="danger"/>
 
 ::: hint Run Method support <Badge vertical="top" text="Important feature" type="important"/>
@@ -74,6 +75,18 @@ URL Params and Form URL-Encoded support copying enabled parameters as text and i
 <MyCarousel :imgList="['/img/2026.1.1/paramEditArea.png','/img/2026.1.1/jsonParamEditArea.png']" />
 
 Optimized the parameter editor structure for URL Params, Form URL-Encoded, and Body Raw. URL Params and Form URL-Encoded replace the previous Table/Text dual-tab layout with a single parameter table, and move text parameter handling to copy and import actions. Body Raw removes the previous Params/Document sub-tabs, and Document is now displayed in a dialog opened from the toolbar button.
+
+:::
+
+::: hint History request refactor <Badge vertical="top" text="Optimization feature" type="info"/>
+
+![](/img/2026.1.1/historyRequest_en.png)
+
+History requests are grouped by date directory. Requests inside each group are sorted by the concrete request time in descending order. You can search history records by API Name or Url.
+
+History data is now stored under the project root `.fastRequest/history`, with one directory for each date and one JSON file for each history record, for example `.fastRequest/history/2026-07-11/update_book_20260711133641_xxxxxxxx.json`. The file structure is aligned with the displayed history tree.
+
+The previous save limit has been removed. You can delete a single history record, or select a date group to delete the whole date directory. A confirmation dialog is shown before deletion.
 
 :::
 

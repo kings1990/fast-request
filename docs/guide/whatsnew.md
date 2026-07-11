@@ -35,6 +35,7 @@ important: <Badge text="重要功能" type="important"/> <span>&nbsp;&nbsp;&nbsp
 - <Badge text="JSON 响应树视图" type="tip"/>
 - <Badge text="参数复制导入" type="tip"/>
 - <Badge text="参数编辑区优化" type="info"/>
+- <Badge text="历史请求重构" type="info"/>
 - <Badge text="修复若干非阻断问题" type="danger"/>
 
 ## 2025.1.9 <Badge text="免费试用" type="tip"/> <Badge text="2026-06-29" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>

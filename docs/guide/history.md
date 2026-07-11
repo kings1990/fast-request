@@ -29,6 +29,7 @@ icon: changelog
 - <Badge text="JSON 响应树视图" type="tip"/>
 - <Badge text="参数复制导入" type="tip"/>
 - <Badge text="参数编辑区优化" type="info"/>
+- <Badge text="历史请求重构" type="info"/>
 - <Badge text="修复若干非阻断问题" type="danger"/>
 
 
@@ -68,6 +69,18 @@ URL Params 和 Form URL-Encoded 支持将启用的参数复制为文本，也支
 <MyCarousel :imgList="['/img/2026.1.1/paramEditArea.png','/img/2026.1.1/jsonParamEditArea.png']" />
 
 优化 URL Params、Form URL-Encoded、Body Raw 的参数编辑区结构。URL Params 和 Form URL-Encoded 将原 Table/Text 双 Tab 调整为单一参数表格，并将文本参数能力调整为复制和导入操作。Body Raw 移除原 Params/Document 子 Tab，Document 通过工具栏按钮打开弹窗展示。
+
+:::
+
+:::hint 历史请求重构 <Badge vertical="top" text="优化" type="info"/>
+
+![](/img/2026.1.1/historyRequest.png)
+
+历史请求按照日期目录进行分组，组内请求按具体请求时间倒序排列。支持根据 API Name 或 Url 搜索历史记录。
+
+历史数据调整为保存到项目根目录 `.fastRequest/history` 下，每个日期一个目录，每条历史记录一个 JSON 文件，例如 `.fastRequest/history/2026-07-11/update_book_20260711133641_xxxxxxxx.json`。文件结构与历史树结构保持一致。
+
+同时取消历史保存上限，支持删除单条历史记录，也支持选中日期分组后删除整个日期目录，删除前会进行确认。
 
 :::
 
