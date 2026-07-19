@@ -28,12 +28,46 @@ Join and follow us to solve your question ❤️❤️❤️↓↓↓
 
 
 
+- <Badge text="Online Document" type="important"/>
+- <Badge text="AI Parameter Optimization" type="important"/>
+- <Badge text="Batch API Generation" type="important"/>
 - <Badge text="Run Method support" type="important"/>
+- <Badge text="AI Settings Update" type="tip"/>
 - <Badge text="JSON field assist" type="tip"/>
 - <Badge text="JSON response tree view" type="tip"/>
 - <Badge text="Param copy and import" type="tip"/>
 - <Badge text="Parameter editor optimization" type="info"/>
+- <Badge text="History request refactor" type="info"/>
 - <Badge text="Fix minor non-blocking issues" type="danger"/>
+
+::: hint Online Document <Badge vertical="top" text="Important feature" type="important"/>
+
+<MyCarousel :imgList="['/img/2026.1.1/onlineDocumentPortal.png', '/img/2026.1.1/onlineDocumentDetail_en.png', '/img/2026.1.1/onlineDocumentHtml_en.png']" />
+
+Collects saved APIs in an editable documentation workspace and starts a local or LAN service for browser access and sharing. Requests can synchronize automatically, and AI-optimized batch results are used as the document examples. See [Online Document](./features/onlineDocument.md).
+
+With the introduction of Online Document, the following legacy document entries have been removed from the Request toolbar and Customize Toolbar:
+
+- API document synchronization: GitHub, GitLab, Gitee, and API sync config.
+- Document export: Markdown, HTML, Word, OpenAPI, and API document template config.
+
+:::
+
+::: hint AI Parameter Optimization <Badge vertical="top" text="Important feature" type="important"/>
+
+![AI Parameter Optimization](/img/2026.1.1/aiParameterOptimization_en.png)
+
+Replaces random parameters with realistic business examples based on API context. Path, URL Param, Form URL-Encoded, Form-data, Raw JSON, and RunMethod parameters are supported, with automatic application, progress feedback, and safe undo. See [AI Parameter Optimization](./features/aiParameterOptimization.md).
+
+:::
+
+::: hint Batch API Generation <Badge vertical="top" text="Important feature" type="important"/>
+
+![Batch API Generation](/img/2026.1.1/batchGeneratePackageApi_en.png)
+
+Generates and saves APIs for the current controller class, or for controllers in a production source package and its subpackages. Each item is isolated so one failure does not stop later APIs, and the task integrates with AI optimization and Online Document synchronization. See [Batch API Generation](./features/batchGenerateApi.md).
+
+:::
 
 ::: hint Run Method support <Badge vertical="top" text="Important feature" type="important"/>
 
@@ -42,6 +76,12 @@ Join and follow us to solve your question ❤️❤️❤️↓↓↓
 ![](/img/2026.1.1/methods_en.png)
 
 Support triggering Run Method directly from Java/Kotlin methods. It generates invocation arguments from the method signature and calls Spring/Solon Bean methods inside the running application. Methods and parameter data can be saved, and the same method can keep multiple parameter sets. Saved methods can be opened in Methods, switched between parameter sets, rerun, or navigated back to source code.
+
+:::
+
+::: hint AI Settings Update <Badge vertical="top" text="New feature" type="tip"/>
+
+AI API Key Management supports multiple saved configurations for OpenAI, Zhipu AI, DeepSeek, Gemini, and compatible custom services. Model, timeout, value language, and automatic parameter optimization can be configured independently. Configuration and API-key errors provide an action that opens AI settings directly. See [AI](./features/ai.md#_2026-1-1-ai-settings-update).
 
 :::
 
@@ -74,6 +114,18 @@ URL Params and Form URL-Encoded support copying enabled parameters as text and i
 <MyCarousel :imgList="['/img/2026.1.1/paramEditArea.png','/img/2026.1.1/jsonParamEditArea.png']" />
 
 Optimized the parameter editor structure for URL Params, Form URL-Encoded, and Body Raw. URL Params and Form URL-Encoded replace the previous Table/Text dual-tab layout with a single parameter table, and move text parameter handling to copy and import actions. Body Raw removes the previous Params/Document sub-tabs, and Document is now displayed in a dialog opened from the toolbar button.
+
+:::
+
+::: hint History request refactor <Badge vertical="top" text="Optimization feature" type="info"/>
+
+![](/img/2026.1.1/historyRequest_en.png)
+
+History requests are grouped by date directory. Requests inside each group are sorted by the concrete request time in descending order. You can search history records by API Name or Url.
+
+History data is now stored under the project root `.fastRequest/history`, with one directory for each date and one JSON file for each history record, for example `.fastRequest/history/2026-07-11/update_book_20260711133641_xxxxxxxx.json`. The file structure is aligned with the displayed history tree.
+
+The previous save limit has been removed. You can delete a single history record, or select a date group to delete the whole date directory. A confirmation dialog is shown before deletion.
 
 :::
 

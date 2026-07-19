@@ -8,6 +8,13 @@ icon: featuresNew
 
 ![toolwindowNew](/img/toolwindowNew.png)
 
+## 2026.1.1 重点功能
+
+- [<ColorIcon icon="doc" /> 在线文档](./onlineDocument.md)
+- [<ColorIcon icon="openai" /> AI 参数智能优化](./aiParameterOptimization.md)
+- [<ColorIcon icon="settings" /> AI 设置升级](./ai.md#_2026-1-1-ai-设置升级)
+- [<ColorIcon icon="apis" /> 批量生成 API](./batchGenerateApi.md)
+
 ## Request
 
 - [<ColorIcon icon="restfulFastRequest" /> 让图标动起来](./makeIconMove.md)

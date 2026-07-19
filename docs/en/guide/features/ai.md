@@ -2,66 +2,23 @@
 
 Version required: <Badge text="2024.1.4+" />
 
-## 1. Introduce
+## 2026.1.1 AI Settings Update <Badge text="New feature" type="tip"/>
 
-![AI](/img/2024.1.4/ai_en.png)
+AI API Key Management now stores multiple AI configurations and lets you switch between them from a list. Each configuration has its own:
 
-In order to make AI's responses more accurate, we have made AI settings more refined and added 3 dimensions:
-`Summary`、`Example question`、`Example question's answer`.
-This design allows the AI to train a question and answer session so that the results are more in line with expectations.
+- Provider: OpenAI, Zhipu AI, DeepSeek, Gemini, or another compatible service.
+- Name, API endpoint, API key, and model.
+- Request timeout.
+- Value language: follow the API context automatically, Chinese, or English.
+- Option to run [AI Parameter Optimization](./aiParameterOptimization.md) automatically after API generation.
+- Enabled state.
 
-We can try to express various possibilities of the question in the `Summary`, and the give an example in `Example question` and `Example question's answer`.
+Only one configuration is active at a time. `[ON]` identifies the active item; enabling another item disables the previous one automatically.
 
-The following is a case of using AI to help optimize JSON messages
+Selecting a provider fills its default API endpoint and model. Select **Others** for a compatible custom service. **Get api key** opens the provider's API key page.
 
-::: code-tabs
-
-@tab Summary
-
-```
-You are an excellent JSON handler. Whenever a user sends you a JSON, you should respond to
-the user in a fixed JSON formatand replace the values in the JSON fields with
-human-readable content according to the meaning of the JSON keys. You will only modify
-the values in the JSON without changing its structure.
-```
-
-@tab Example question
-
-```json
-{ "id": 1, "title": "title_ahska", "simpleDesc": "simpleDesc_ohga1" }
-```
-
-@tab Example question's answer
-
-```json
-{
-  "id": 1,
-  "title": "Harry Potter and the Philosopher's Stone",
-  "simpleDesc": "Join Harry Potter on a thrilling adventure at Hogwarts School of Witchcraft and Wizardry as he uncovers dangerous secrets and saves the rewarding world."
-}
-```
-
-:::
+![AI Settings](/img/2026.1.1/aiSetting_en.png)
 
 ::: tip
-The value selected in the editor needs to be replaced with **${SELECTION}**. The complete example is as following.
-
-**${SELECTION}** can be quickly generated through the {} icon in the editor.
-
+When a request fails because an API key is invalid or expired, or the configuration is incomplete, use the action in the error notification to open AI settings directly.
 :::
-
-![](/img/features/aiPromptExample_en.png)
-
-## 2. Api key configuration
-
-1. [OpenAI](https://platform.openai.com/docs/api-reference/chat) needs to be pasted into the Api key field after generation in web page.
-2. [CodeGeeX](https://codegeex.cn/) need to click `Get api key` and log in. Plugin will complete the api key automatically.
-3. Custom OpenAI refer to the first method to obtain the API key.
-
-![](/img/2024.1.3/aiManagenemt_en.png)
-
-## 3. Trigger AI prompt
-
-![](/img/features/aiPromptTrigger.png)
-
-After selecting the content in the editor, click the prompt line.

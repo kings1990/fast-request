@@ -8,6 +8,13 @@ The icon in the document corresponds to the button icon in the plugin
 
 ![toolwindow](/img/toolwindowNew_en.png)
 
+## 2026.1.1 Highlights
+
+- [<ColorIcon icon="doc" /> Online Document](./onlineDocument.md)
+- [<ColorIcon icon="openai" /> AI Parameter Optimization](./aiParameterOptimization.md)
+- [<ColorIcon icon="settings" /> AI Settings Update](./ai.md#_2026-1-1-ai-settings-update)
+- [<ColorIcon icon="apis" /> Batch API Generation](./batchGenerateApi.md)
+
 ## Request
 
 - [<ColorIcon icon="restfulFastRequest" /> Make icon move](./makeIconMove.md)
