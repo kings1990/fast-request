@@ -24,14 +24,44 @@ icon: changelog
 > [!important]
 > 该版本，我们进行了大量的代码优化与重构，所以如果出现问题，请及时反馈给我们，我们会尽快修复。
 
+- <Badge text="在线文档" type="important"/>
+- <Badge text="AI 参数智能优化" type="important"/>
+- <Badge text="批量生成 API" type="important"/>
 - <Badge text="Run Method 支持" type="important"/>
 - <Badge text="JSON 字段增强" type="tip"/>
+- <Badge text="AI 设置升级" type="tip"/>
 - <Badge text="JSON 响应树视图" type="tip"/>
 - <Badge text="参数复制导入" type="tip"/>
 - <Badge text="参数编辑区优化" type="info"/>
 - <Badge text="历史请求重构" type="info"/>
 - <Badge text="修复若干非阻断问题" type="danger"/>
 
+
+:::hint 在线文档 <Badge vertical="top" text="重要功能" type="important"/>
+<MyCarousel :imgList="['/img/2026.1.1/onlineDocumentPortal.png', '/img/2026.1.1/onlineDocumentDetail.png', '/img/2026.1.1/onlineDocumentHtml.png']" />
+
+将已保存的 API 汇总为可编辑的文档工作区，并支持启动本地或局域网服务进行浏览和分享。保存请求时可以自动同步；当 AI 参数优化与批量生成同时启用时，文档示例值使用最终保存结果。详见[在线文档](./features/onlineDocument.md)。
+
+随着在线文档功能上线，Request 主工具栏和自定义 Toolbar 中移除以下旧文档功能入口：
+
+- API 文档同步：GitHub、GitLab、Gitee 及 API sync config。
+- 文档导出：Markdown、HTML、Word、OpenAPI 及 API 文档模板配置。
+
+:::
+
+:::hint AI 参数智能优化 <Badge vertical="top" text="重要功能" type="important"/>
+![AI 参数智能优化](/img/2026.1.1/aiParameterOptimization.png)
+
+根据 API 上下文将随机参数优化为更真实的业务示例，支持 Path、URL Param、Form URL-Encoded、Form-data、Raw JSON 和 RunMethod 参数。支持生成后自动应用、进度提示和安全撤销。详见[AI 参数智能优化](./features/aiParameterOptimization.md)。
+
+:::
+
+:::hint 批量生成 API <Badge vertical="top" text="重要功能" type="important"/>
+![批量生成 API](/img/2026.1.1/batchGeneratePackageApi.png)
+
+支持对当前 Controller 类，或生产源码包及其子包中的 Controller 批量生成并保存 API。任务逐个隔离执行，单项失败不会中断后续任务，并可联动 AI 参数优化与在线文档同步。详见[批量生成 API](./features/batchGenerateApi.md)。
+
+:::
 
 :::hint Run Method 支持 <Badge vertical="top" text="重要功能" type="important"/>
 
@@ -40,6 +70,12 @@ icon: changelog
 ![](/img/2026.1.1/methods.png)
 
 支持在 Java/Kotlin 方法上直接触发 Run Method，根据方法签名生成调用参数，并调用运行中的应用内的 Spring/Sonlon Bean 方法。支持保存方法及参数数据，同一个方法可以保存多组参数，已保存的方法可在 Methods 中打开、切换参数组、重新运行或定位到源码。
+
+:::
+
+:::hint AI 设置升级 <Badge vertical="top" text="新功能" type="tip"/>
+
+AI API Key 管理支持保存和切换多套配置，内置 OpenAI、智谱 AI、DeepSeek、Gemini 与自定义兼容服务，并可分别设置模型、超时、参数值语言及生成 API 后自动优化参数。配置或 API Key 异常时，可从错误消息直接打开 AI 设置。详见 [AI](./features/ai.md#_2026-1-1-ai-设置升级)。
 
 :::
 

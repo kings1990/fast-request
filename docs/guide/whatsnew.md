@@ -30,6 +30,10 @@ important: <Badge text="重要功能" type="important"/> <span>&nbsp;&nbsp;&nbsp
 ## 2026.1.1 <Badge text="免费试用" type="tip"/> <Badge text="开发中..." color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
 <Badge text="该版本，我们进行了大量的代码优化与重构，所以如果出现问题，请及时反馈给我们，我们会尽快修复。" color="pink" vertical="middle"/>
 
+- <Badge text="在线文档" type="important"/>
+- <Badge text="AI 参数智能优化" type="important"/>
+- <Badge text="批量生成 API" type="important"/>
+- <Badge text="AI 设置升级" type="tip"/>
 - <Badge text="Run Method 支持" type="important"/>
 - <Badge text="JSON 字段增强" type="tip"/>
 - <Badge text="JSON 响应树视图" type="tip"/>
