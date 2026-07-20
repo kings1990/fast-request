@@ -10,9 +10,9 @@ Issue report please refer to [GitHub](https://github.com/dromara/fast-request/is
 
 Join and follow us to solve your question ❤️❤️❤️↓↓↓
 
-| [![twitter](https://img.shields.io/static/v1?label=Twitter&message=FastRequest666&logo=twitter&color=FC8D34)](https://twitter.com/FastRequest666) |
- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![twitter](/img/twitter.png)                                                                                                             |
+| [![twitter](https://img.shields.io/static/v1?label=Twitter&message=FastRequest666&logo=twitter&color=FC8D34)](https://twitter.com/FastRequest666) | Telegram                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| ![twitter](/img/twitter.png)                                                                                                                      | ![Telegram](/img/telegram.png) |
 
 :::
 
@@ -25,8 +25,6 @@ Join and follow us to solve your question ❤️❤️❤️↓↓↓
 
 > [!important]
 > We have made extensive code optimizations and refactoring in this version.If you encounter any issues, feel free to report them to us and we will fix them as soon as possible.
-
-
 
 - <Badge text="Online Document" type="important"/>
 - <Badge text="AI Parameter Optimization" type="important"/>
@@ -136,6 +134,7 @@ Fixed several issues that do not affect normal plugin execution, including UI di
 :::
 
 ## 2025.1.9 <Badge text="Free trial" type="tip"/> <Badge text="2026-06-29" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+
 - <Badge text="AI inline completion" type="important"/>
 - <Badge text="JSON key support one-click conversion" type="tip"/>
 
@@ -147,9 +146,7 @@ Fixed several issues that do not affect normal plugin execution, including UI di
 
 Fields support AI completion, allowing users to automatically complete field values when entering or removing field names. The first step is that you need to configure the ApiKey.
 
-
 :::
-
 
 ::: hint JSON key support one-click conversion<Badge vertical="top" text="New feature" type="tip"/>
 
@@ -159,14 +156,16 @@ Support one-click conversion to camelCase, snake_case, kebab-case, and pascalCas
 :::
 
 ## 2025.1.8.1 <Badge text="Free trial" type="tip"/> <Badge text="2026-05-08" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+
 - <Badge text="Compatible with IDEA 2026.2" type="info"/>
 - <Badge text="Fix Kotlin time annotation parsing" type="danger"/>
 
 ## 2025.1.8 <Badge text="Free trial" type="tip"/> <Badge text="2026-03-30" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+
 - <Badge text="Compatible with IDEA IDEA 2026.1" type="info"/>
 
-
 ## 2025.1.7 <Badge text="Free trial" type="tip"/> <Badge text="2025-09-08" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+
 - <Badge text="Local mode support" type="tip"/>
 - <Badge text="Domain generation support pom variable scan" type="tip"/>
 - <Badge text="Field speed search" type="tip"/>
@@ -179,7 +178,6 @@ Support one-click conversion to camelCase, snake_case, kebab-case, and pascalCas
 
 In global local mode, `.fastRequest` directory is ignored and made invisible, which is consistent with Solution 1 in [How to ignore .fastRequest directory](./faq.md#s-how-to-ignore-fastrequest-directory).
 It is suitable for non-git projects.
-
 
 ![](/img/2025.1.7/localMode.png)
 It is suggested to use project-level local mode for git projects.
@@ -213,10 +211,8 @@ Support quickly locate and modify shortcuts for the action.
 
 :::
 
+## 2025.1.6 <Badge text="Free trial" type="tip"/> <Badge text="Newest version" type="pink"/> <Badge text="2025-07-30" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
 
-
-
-## 2025.1.6 <Badge text="Free trial" type="tip"/> <Badge text="Newest version" type="pink"/> <Badge text="2025-07-30" color="SandyBrown"/>  <Badge text="IDEA 2023.3+" color="pink"/>
 - <Badge text="Search URL truncate segment support" type="tip"/>
 - <Badge text="Solon framework linemarker and API scan support" type="tip"/>
 
@@ -228,16 +224,18 @@ If there is a URL prefix fragment such as context-path or gateway in the project
 :::
 
 ## 2025.1.5.1 <Badge text="Free trial" type="tip"/> <Badge text="2025-07-07" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+
 - <Badge text="Function compilation error in Windows" type="danger"/>
 
 ## 2025.1.5 <Badge text="Free trial" type="tip"/> <Badge text="2025-06-24" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+
 - <Badge text="Formatting performance optimization" type="tip"/>
 - <Badge text="Function compilation encoding error" type="danger"/>
 
 ## 2025.1.4 <Badge text="Free trial" type="tip"/> <Badge text="2025-05-20" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+
 - <Badge text="Script supports calling local project class method" type="tip"/>
 - <Badge text="Fixed dynamic Function compilation error" type="danger"/>
-
 
 ::: hint Script supports calling local project class method <Badge vertical="top" text="New feature" type="tip"/>
 
@@ -258,11 +256,12 @@ Note that you need to replace `path/to/classes` with the absolute path and `some
 :::
 
 ## 2025.1.3 <Badge text="Free trial" type="tip"/> <Badge text="2025-04-16" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
+
 - <Badge text="Support scan api of super class" type="tip"/>
-- <Badge text="Quickly make filed as ignore field" type="tip"/>  
+- <Badge text="Quickly make filed as ignore field" type="tip"/>
 - <Badge text="Api navigate not jump to method support" type="tip"/>
 - <Badge text="Batch sync api to Apifox support" type="tip"/>
-- <Badge text="Export Openapi error for collection type" type="danger"/>  
+- <Badge text="Export Openapi error for collection type" type="danger"/>
 
 ::: hint Support scan Api of super class <Badge vertical="top" text="New feature" type="tip"/>
 ![](/img/2025.1.3/apiPreviewSuperClass.png)
@@ -291,17 +290,15 @@ With this configuration, code navigate will not be executed, which can effective
 
 After selecting a directory, you can synchronize the APIs in the directory to Apifox in batches.
 
-
 :::
 
-
 ## 2025.1.2 <Badge text="Free trial" type="tip"/> <Badge text="IDEA 2023.3+" color="pink"/>
+
 - <Badge text="Some non-core function disabled by default" type="info"/>
 - <Badge text="Add tags element for OpenApi doc" type="info"/>
 - <Badge text="History requests increased to 50" type="info"/>
-- <Badge text="Optimize the default document format for API export" type="info"/>  
+- <Badge text="Optimize the default document format for API export" type="info"/>
 - <Badge text="Fixed API list preview was not displayed" type="danger"/>
-
 
 ::: hint Some non-core function disabled by default <Badge vertical="top" text="Optimization" type="info"/>
 ![](/img/2025.1.2/customToolbar_en.png)
@@ -313,14 +310,12 @@ Non-core functions will be disabled by default, and you can enable it by check t
 
 :::
 
-
 ::: hint Fixed API list preview was not displayed <Badge vertical="top" text="Fix" type="danger"/>
 ![](/img/2025.1.2/apiPreview.png)
 
 Fixed the issue that the API list preview was not displayed in previous versions
 
 :::
-
 
 ## 2025.1.1 <Badge text="Free trial" type="tip"/> <Badge text="2025-01-15" color="SandyBrown"/> <Badge text="IDEA 2023.3+" color="pink"/>
 
